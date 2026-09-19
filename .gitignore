@@ -1,0 +1,4 @@
+        .venv/
+        DEPLOY_ORANGE.md
+        __pycache__/
+        passenger_wsgi.py
