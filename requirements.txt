@@ -1,19 +1,10 @@
 fastapi==0.115.0
-flatlib==0.2.3
-pyswisseph==2.8.0
-Pillow==10.4.0 # new added 
+uvicorn==0.30.6
 a2wsgi==1.10.7
 pydantic==2.9.2
-
-# Astrology engine (ported from the desktop app)
-pyswisseph==2.10.3.2
-# flatlib==0.2.3 is installed separately with --no-deps, see DEPLOY_ORANGE.md
-# (its pinned pyswisseph dependency is older/broken on Python 3.13).
-
-# PDF export (ported from the desktop app)
+Pillow==10.4.0
 reportlab==4.2.5
 uharfbuzz==0.56.1
 fonttools==4.64.0
-
-# Local dev server only (not needed on cPanel, Passenger runs the app there)
-uvicorn==0.30.6
+flatlib
+pyswisseph==2.10.3.2
